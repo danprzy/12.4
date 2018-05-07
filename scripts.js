@@ -15,3 +15,7 @@ function getJoke() {
     });
     request.send();
 }
+//load joke at the end of the document loading process
+window.onload = function () {
+  getJoke();
+};
