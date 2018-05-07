@@ -19,3 +19,25 @@ function getJoke() {
 window.onload = function () {
   getJoke();
 };
+
+//jQery
+/*
+$(document).ready(function(){
+ var url = 'http://api.icndb.com/jokes/random';
+ var $paragraph = $('#joke');
+
+ var $button = $('#get-joke').click(function() {
+   getJoke();
+ });
+
+ function getJoke() {
+  $.ajax({
+    method: 'GET',
+    url: url, // on the left we have the name of the parameter, and to the right is the name of the variable that holds the value
+    success: function(res) {
+      $paragraph.text(res.value.joke);
+    }
+  });
+ };
+});
+*/
