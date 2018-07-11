@@ -1,4 +1,6 @@
-var url = 'http://api.icndb.com/jokes/random';
+/* var url = 'http://api.icndb.com/jokes/random'; */
+var url = 'https://crossorigin.me/http://api.icndb.com/jokes/random';/* use the CORS Proxy use the CORS Proxy Crossorigin.me */
+
 var paragraph = document.getElementById('joke');
 
 var button = document.getElementById('get-joke');
